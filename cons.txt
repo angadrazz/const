@@ -1,0 +1,19 @@
+Let vs Const
+Difference between let and const.
+let const
+It can be declared without
+initialization.
+It can’t be declared without initialization.
+e.g. const val; //It is not allowed.
+It can’t be accessed without
+initialization, as it returns an error
+const can’t be accessed without
+initialisation, as it can’t be declared without
+initialisation.
+It can be updated but cannot be
+re-declared into the scope.
+It cannot be updated or re-declared into the
+scope.
+Note: Sometimes, we face the problem while working with the var variable as they
+change its value in the particular block. So, we should use the let and const
+keywords to declare a variable in JavaScript.
