@@ -5,6 +5,6 @@ for(var i = 0; i < navMenuAnchorTags.length; i++){
         event.preventDefault();
         var targetSectionID = this.textContent.trim().toLowerCase();
         var targetSection = document.getElementById(targetSectionID);
-        console.log(targetSectionID);
+        console.log(targetSection);
     });
 }
