@@ -12,6 +12,7 @@ for(var i = 0; i < navMenuAnchorTags.length; i++){
                 clearInterval(interval);
                 return;
             }
-        })
+            window.scrollBy(0,50);
+        }, 20  );
     });
 }
