@@ -6,5 +6,12 @@ for(var i = 0; i < navMenuAnchorTags.length; i++){
         var targetSectionID = this.textContent.trim().toLowerCase();
         var targetSection = document.getElementById(targetSectionID);
         console.log(targetSection);
+        var targetSectionCoordinates = targetSection.getBoundingClientRect();
+        var interval = setInterval(function){
+            if (targetSectionCoordinates.top <= 0) {
+                clearInterval(interval);
+                return;
+            }
+        }
     });
 }
