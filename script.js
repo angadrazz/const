@@ -16,3 +16,9 @@ for(var i = 0; i < navMenuAnchorTags.length; i++){
         }, 20  );
     });
 }
+
+// Skills Bars
+$('.skills-percent').each(function(){
+    $(this).animate({
+      width:$(this).attr('data-percent')},"fast");
+    });
