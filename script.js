@@ -8,7 +8,10 @@ for(var i = 0; i < navMenuAnchorTags.length; i++){
         console.log(targetSection);
         var interval = setInterval(function(){
             var targetSectionCoordinates = targetSection.getBoundingClientRect();
-            
+            if(targetSectionCoordinates.top <= 0){
+                clearInterval(interval);
+                return;
+            }
         })
     });
 }
