@@ -18,7 +18,6 @@ for(var i = 0; i < navMenuAnchorTags.length; i++){
 }
 
 // Skills Bars
-// Skills Bars
 var progressBars = document.querySelectorAll(".skill-progress > div");
 var skillsContainer = document.getElementById('skills-container');
 var animationDone = false;
